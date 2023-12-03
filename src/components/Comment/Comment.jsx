@@ -31,7 +31,7 @@ export const Comment = ({
           <span className={styles.date}>{formatDateToNow(createdAt)}</span>
 
           <div className={styles.buttonBox}>
-            <Button counter={thumbsUp} id={id}>
+            <Button counter={thumbsUp} id={id} >
               <TiThumbsUp className={styles.icon} />
             </Button>
 
